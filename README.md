@@ -24,7 +24,29 @@ To write and execute an Assembly Language Program for sorting data in Ascending 
 
 
 ## Program (Ascending order)
+ORG 0000H
+MOV R1,30H     ; Outer loop count = N
+DEC R1
 
+LOOP1: MOV R0,#40H
+       MOV R6,30H
+       DEC R6
+
+LOOP:  MOV A,@R0
+       INC R0
+       MOV B,@R0
+       CJNE A,B,NEXT
+NEXT:  JNC DOWN
+
+       MOV @R0,A
+       DEC R0
+       MOV @R0,B
+       INC R0
+
+DOWN:  DJNZ R6,LOOP
+       DJNZ R1,LOOP1   ; Outer loop ends correctly
+
+END
 
 
 
