@@ -24,6 +24,9 @@ To write and execute an Assembly Language Program for sorting data in Ascending 
 
 
 ## Program (Ascending order)
+
+
+
 ORG 0000H
 MOV R1,30H     ; Outer loop count = N
 DEC R1
@@ -53,6 +56,8 @@ END
 
 ```
 ## OUTPUT(Ascending order)
+<img width="1866" height="767" alt="ascending" src="https://github.com/user-attachments/assets/864d0486-1f1d-48b3-bd0e-692a8c795a42" />
+
 
 
 
