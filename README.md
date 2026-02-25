@@ -20,6 +20,9 @@ To write and execute an Assembly Language Program for sorting data in Ascending 
 7. Otherwise, stop the program.  
 ---
 
+
+
+
 ## Program (Ascending order)
 
 ORG 0000H
@@ -50,6 +53,8 @@ END
 
 ```
 ## OUTPUT(Ascending order)
+
+
 <img width="1866" height="767" alt="ascending" src="https://github.com/user-attachments/assets/118f89ac-201f-4b3b-8f8c-738329285093" />
 
 
@@ -68,6 +73,8 @@ END
    - If **No**, repeat the process from Step 2.  
    - If **Yes**, stop the program.  
 ---
+
+
 ## Program (Descending order)
 
 ORG 0000H
