@@ -50,7 +50,7 @@ END
 
 ```
 ## OUTPUT(Ascending order)
-<img width="1866" height="767" alt="ascending" src="https://github.com/user-attachments/assets/29a38e31-2b26-4c4b-86ea-81b10c5258af" />
+<img width="1866" height="767" alt="ascending" src="https://github.com/user-attachments/assets/118f89ac-201f-4b3b-8f8c-738329285093" />
 
 
 
