@@ -25,28 +25,6 @@ To write and execute an Assembly Language Program for sorting data in Ascending 
 
 ## Program (Ascending order)
 
-ORG 0000H
-MOV R4,#04H        ; Number of passes (N-1)
-OUTER: MOV R3,#04H ; Inner loop counter
-MOV R0,#50H        ; Array starting address
-INNER: MOV A,@R0
-MOV B,A
-INC R0
-CLR C
-SUBB A,@R0         ; Compare adjacent elements
-JC NO_SWAP         ; If A < @R0 (Carry), no swap
-; Exchange elements
-MOV A,@R0
-XCH A,B
-MOV @R0,A
-DEC R0
-MOV A,B
-XCH A,B
-MOV @R0,A
-INC R0
-NO_SWAP: DJNZ R3,INNER
-DJNZ R4,OUTER
-END
 
 
 
@@ -55,7 +33,6 @@ END
 ## OUTPUT(Ascending order)
 
 
-<img width="1866" height="767" alt="ascending" src="https://github.com/user-attachments/assets/118f89ac-201f-4b3b-8f8c-738329285093" />
 
 
 
